@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Educación</title>
+  </head>
+  <body>
+
+    <header>
+        <h1><img src="imgs/Logo Iniciales 02.png" alt="Mi Empresa SA de CV" title="Mi Empresa SA de CV" width="80">
+        Datos personales</h1>
+    </header>
+
+
+    <section>
+
+      <h1>Julio Cesar Ruiz Castro</h1>
+
+      <h3>
+          Del mes de  <strong>Septiembre de 1977</strong> nacido en la <strong>Ciudad de México</strong>
+      </h3>
+        <nav>
+          <a href="index.html">Inicio</a>
+          |
+          <a href="experiencia.html">Experiencia</a>
+        </nav>
+
+      <h2>Educación</h2>
+
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Año de Incio</th>
+            <th>Institución</th>
+            <th>Lugar</th>
+            <th>Culmino</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1997</td>
+            <td>Universidad Autónoma del Estado de México</td>
+            <td>Texoco</td>
+            <td>Concluida</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td> <br> </td>
+            <td> <br> </td>
+            <td> <br> </td>
+            <td> <br> </td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <br>
+      <form autocomplete="on" name="frmDatos">
+      <fieldset>
+        <legend align="left">Agregar estudios</legend>
+
+          <table>
+            <tbody>
+              <tr>
+                <td><label>Año de Incio</label></td>
+                <td>
+                  <input type="number" name="anno" value="" placeholder="Indique año de inicio" required autofocus="autofocus">
+                </td>
+              </tr>
+              <tr>
+                <td><label>Institución</label></td>
+                <td>
+                  <input type="text" name="instirucion" value="" placeholder="Nombre de la Institución" required>
+                </td>
+              </tr>
+              <tr>
+                <td><label>Lugar</label></td>
+                <td>
+                  <textarea name="name" rows="4" cols="50" placeholder="Lugar en donde curso sus estudios"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td><label>Estatus</label></td>
+                <td>
+                  <select>
+                    <option value=Cur>En Curso
+                    <option value=Tru>Trunca
+                    <option value=Con>Concluida
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td><input type="submit" name="guardar" value="Guardar datos"</td>
+              </tr>
+              <tr>
+                <td><input type="reset" name="limpiar" value="Borrar datos del formulario" /></td>
+              </tr>
+            </tfoot>
+          </table>
+
+    </fieldset>
+    </form>
+
+    </section>
+
+    <br>
+    <footer>
+      <p>
+      email: castroruiz2001@yahoo.com.mx
+      <br>
+      Movil: +52 55 64226489
+      <br>
+      Twiter: @castroruiz2001
+      </p>
+    </footer>
+
+  </body>
+</html>
